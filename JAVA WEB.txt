@@ -1,0 +1,43 @@
+**SERVLET
+
+Servlets are the Java programs that run on the Java-enabled web server or application server. 
+They are used to handle the request obtained from the webserver, process the request, produce the response, then send the response back to the webserver.
+
+Better performance: because it creates a thread for each request, not process.
+Portability: because it uses Java language.
+Robust: JVM manages Servlets, so we don't need to worry about the memory leak, garbage collection, etc.
+Secure: because it uses java language.
+
+Servlet is a technology which is used to create a web application.
+Servlet is an API that provides many interfaces and classes including documentation.
+Servlet is an interface that must be implemented for creating any Servlet.
+Servlet is a class that extends the capabilities of the servers and responds to the incoming requests. It can respond to any requests.
+Servlet is a web component that is deployed on the server to create a dynamic web page.
+
+
+**DATABASE
+Database: Most web apps require a place to store data for which database is used,e.g., suppose there is a webpage registering as a new user.
+Now think, where all these data will be saved? Here we can use a database that will store the data of the user, which will be accessible all the time. However,
+these data will be accessed with the help of backend code written in java and will be connecting with UI as well as explained in the java section as well.
+
+
+**JDBC
+JDBC: If you are using java and a database like MySQL.How will you communicate with it as you cannot use SQL commands directly?
+For that, you will have to use JDBC(java database connectivity) that will connect the database and there are some abstract classes like Connection, etc will have to use.
+
+Advantages of JSP over Servlet
+ Extension to Servlet
+ Easy to maintain
+ Fast Development: No need to recompile and redeploy
+ Less code than Servlet
+
+The Lifecycle of a JSP Page
+The JSP pages follow these phases:
+
+Translation of JSP Page
+Compilation of JSP Page
+Classloading (the classloader loads class file)
+Instantiation (Object of the Generated Servlet is created).
+Initialization ( the container invokes jspInit() method).
+Request processing ( the container invokes _jspService() method).
+Destroy ( the container invokes jspDestroy() method).
